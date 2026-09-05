@@ -19,11 +19,13 @@ Technologies Used
  Standard Input/Output 
 Board Positions 
 Players enter positions using: 
+
 1 1 | 1 2 | 1 3 
 ----+-----+---- 
 2 1 | 2 2 | 2 3 
 ----+-----+---- 
 3 1 | 3 2 | 3 3 
+
 For example: 
 Enter X positions(c,r): 1 1 
 This places X in the first row and first column. 
@@ -47,6 +49,7 @@ If using MinGW/GCC:
 gcc tic_tac_toe.c -o tic_tac_toe.exe 
 tic_tac_toe.exe 
 Sample Output
+
 ------|------|------| 
       |      |      |
 ------|------|------| 
@@ -54,8 +57,10 @@ Sample Output
 ------|------|------| 
       |      |      |
 ------|------|------| 
+
  
 Enter X positions(c,r): 1 1 
+
 ------|------|------| 
   X   |      |      | 
 ------|------|------| 
@@ -63,6 +68,7 @@ Enter X positions(c,r): 1 1
 ------|------|------| 
       |      |      | 
 ------|------|------| 
+
  
 Enter O positions c and R: 2 2 
 Future Improvements 
